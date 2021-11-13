@@ -53,7 +53,7 @@ class dbConnector:
 
         mycursor = self.mydb.cursor()
 
-        sql = f"SELECT * FROM users WHERE login ='{username}'"
+        sql = f"SELECT * FROM users WHERE username ='{username}'"
 
         mycursor.execute(sql)
 
