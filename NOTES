@@ -8,3 +8,4 @@
 6. refactor main
 6.1. Create specific file for routes
 7. Good example how ot work with tokens: https://geekflare.com/securing-flask-api-with-jwt/
+8. Create deployment stage
