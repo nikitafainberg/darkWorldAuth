@@ -62,6 +62,7 @@ class dbConnector:
         res = []
         for x in myresult:
             res.append({
+                "id": x[0],
                 "username": x[1],
                 "password": x[2],
                 "last_login": x[3],
